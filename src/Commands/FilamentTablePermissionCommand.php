@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace BrayanCaro\FilamentTablePermission\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamentTablePermissionCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filament-table-permission';
 
     public $description = 'My command';
 
