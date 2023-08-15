@@ -4,7 +4,6 @@ namespace BrayanCaro\FilamentTablePermission;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use BrayanCaro\FilamentTablePermission\Commands\FilamentTablePermissionCommand;
 
 class FilamentTablePermissionServiceProvider extends PackageServiceProvider
 {
@@ -17,9 +16,7 @@ class FilamentTablePermissionServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('filament-table-permission')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_filament-table-permission_table')
-            ->hasCommand(FilamentTablePermissionCommand::class);
+            ->hasTranslations()
+            ->hasConfigFile();
     }
 }
