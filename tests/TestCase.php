@@ -2,9 +2,9 @@
 
 namespace BrayanCaro\FilamentTablePermission\Tests;
 
+use BrayanCaro\FilamentTablePermission\FilamentTablePermissionServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use BrayanCaro\FilamentTablePermission\FilamentTablePermissionServiceProvider;
 
 class TestCase extends Orchestra
 {

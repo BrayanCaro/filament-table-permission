@@ -2,9 +2,9 @@
 
 namespace BrayanCaro\FilamentTablePermission;
 
+use BrayanCaro\FilamentTablePermission\Commands\FilamentTablePermissionCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use BrayanCaro\FilamentTablePermission\Commands\FilamentTablePermissionCommand;
 
 class FilamentTablePermissionServiceProvider extends PackageServiceProvider
 {
