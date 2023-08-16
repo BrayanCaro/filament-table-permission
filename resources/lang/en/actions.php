@@ -17,7 +17,7 @@ return [
                 'label' => 'Role',
             ],
             'messages' => [
-                'synced' => 'Roles synced successfully',
+                'synced' => "One user's roles was synced|[2,*] :count user's roles were synced",
             ],
         ],
     ],
